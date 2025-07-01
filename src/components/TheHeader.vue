@@ -2,22 +2,13 @@
 
 import TheLogo from "@/components/TheLogo.vue";
 import AppointmentButton from "@/components/AppointmentButton.vue";
+import HeaderNav from "@/components/HeaderNav.vue";
 </script>
 
 <template>
   <div class="header">
     <the-logo></the-logo>
-    <ul class="flex gap-15">
-      <li>
-        <router-link to="">Despre</router-link>
-      </li>
-      <li>
-        <router-link to="">De ce noi</router-link>
-      </li>
-      <li>
-        <router-link to="">Contacte</router-link>
-      </li>
-    </ul>
+    <header-nav></header-nav>
     <appointment-button></appointment-button>
   </div>
 </template>
